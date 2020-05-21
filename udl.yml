@@ -10,13 +10,33 @@ app:
     description: "this is the index page"
     children: 
       - type: view
-        backgroundURL: http://docs.richardcliu.com/pic/banner.jpg
-        margin: [0, 0, -50, 0]
-      - type: text
-        backgroundURL: http://docs.richardcliu.com/pic/subtitle_pink.png
-        textSize: 30
-        textColor: 0xFFDE465D
-        value: 假期酷娱乐
-        text-align: center
+        width: 95.5%
+        height: 100%
+        justifyContent: center
+        alignItems: center
+        alignContent: center
+        backgroundColor: 0xFCC8CA
         margin: [0, 0, 0, 0]
+        padding: [4, 0, 0, 0]
+        children:
+          - type: view
+            backgroundURL: https://mvp-1300522992.cos.ap-chengdu.myqcloud.com/YZ/BOSS/O1CN01ZXX2as29xsa2Aa37O_!!2201426788135.jpg?imageMogr2/thumbnail/!320x320r
+            width: 150
+            height: 150
+            margin: [0, 2, 0, 0]
+          - type: view
+            backgroundURL: http://mvp-1300522992.image.myqcloud.com//misc/0_1587710579620402531.jpg?imageMogr2/thumbnail/!320x320r
+            width: 150
+            height: 150
+            margin: [0, 0, 0, 2]
+          - type: view
+            backgroundURL: http://docs.richardcliu.com/pic/banner.jpg
+            margin: [0, 0, -50, 0]
+          - type: text
+            backgroundURL: http://docs.richardcliu.com/pic/subtitle_pink.png
+            textSize: 30
+            textColor: 0xFFDE465D
+            value: 假期酷娱乐
+            text-align: center
+            margin: [0, 0, 0, 0]
   
