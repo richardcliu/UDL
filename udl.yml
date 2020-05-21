@@ -3,104 +3,20 @@
 version: UDL.tencent.v1
 app:
   - type: page
-    id: index
-    direction: column
-    width:  100%
-    height: 100%
-    description: this is the index page
-    backgroundColor: 0xFFDE465D
-    justifyContent: center
-    alignItems: center
-    children:
-        - type: list
-          height: 100%
-          width: 100%
-          direction: column
-          justifyContent: center
-          alignItems: center
-          alignContent: center
-          backgroundColor: 0xFFDE465D
-          data: [1]
-          children:
-                  - type: view
-                    backgroundURL: http://docs.richardcliu.com/pic/banner.jpg
-                    margin: [0, 0, -50, 0]
-                  - type: text
-                    backgroundURL: http://docs.richardcliu.com/pic/subtitle_pink.png
-                    textSize: 30
-                    textColor: 0xFFDE465D
-                    value: 假期酷娱乐
-                    text-align: center
-                    margin: [0, 0, 0, 0]
-                  - type: view
-                    width: 95.5%
-                    height: 100%
-                    justifyContent: center
-                    alignItems: center
-                    alignContent: center
-                    backgroundColor: 0xFCC8CA
-                    margin: [0, 0, 0, 0]
-                    padding: [4, 0, 0, 0]
-                    children:
-                        - type: view
-                          backgroundURL: https://mvp-1300522992.cos.ap-chengdu.myqcloud.com/YZ/BOSS/O1CN01ZXX2as29xsa2Aa37O_!!2201426788135.jpg?imageMogr2/thumbnail/!320x320r
-                          width: 150
-                          height: 150
-                          margin: [0, 2, 0, 0]
-                        - type: view
-                          backgroundURL: http://mvp-1300522992.image.myqcloud.com//misc/0_1587710579620402531.jpg?imageMogr2/thumbnail/!320x320r
-                          width: 150
-                          height: 150
-                          margin: [0, 0, 0, 2]
-                  - type: view
-                    width: 95.5%
-                    height: 100%
-                    justifyContent: center
-                    alignItems: center
-                    alignContent: center
-                    backgroundColor: 0xFCC8CA
-                    children:
-                        - type: view
-                          backgroundURL: http://mvp-1300522992.image.myqcloud.com//misc/0_1587710576654256539.jpg?imageMogr2/thumbnail/!320x320r
-                          width: 150
-                          height: 150
-                          margin: [0, 2, 0, 0]
-                        - type: view
-                          backgroundURL: https://mvp-1300522992.cos.ap-chengdu.myqcloud.com/YZ/BOSS/O1CN01RxKySd29xsZyWhevI_!!2201426788135.jpg?imageMogr2/thumbnail/!320x320r
-                          width: 150
-                          height: 150
-                          margin: [0, 0, 0, 2]
-                          
-                  - type: view
-                    width: 95.5%
-                    height: 100%
-                    justifyContent: center
-                    alignItems: center
-                    alignContent: center
-                    backgroundColor: 0xFCC8CA
-                    padding: [4, 0, 0, 0]
-                    children:
-                        - type: view
-                          backgroundURL: https://mvp-1300522992.cos.ap-chengdu.myqcloud.com/YZ/BOSS/O1CN01ZXX2as29xsa2Aa37O_!!2201426788135.jpg?imageMogr2/thumbnail/!320x320r
-                          width: 150
-                          height: 150
-                          margin: [0, 2, 0, 0]
-                        - type: view
-                          backgroundURL: http://mvp-1300522992.image.myqcloud.com//misc/0_1587710579620402531.jpg?imageMogr2/thumbnail/!320x320r
-                          width: 150
-                          height: 150
-                          margin: [0, 0, 0, 2]
-                  - type: view
-                    width: 95.5%
-                    justifyContent: center
-                    alignItems: center
-                    alignContent: center
-                    padding: [4, 0, 0, 0]
-                    backgroundURL: http://docs.richardcliu.com/pic/more1.png
-                    onClick: showToast?hello_richard
-  - type: page
     direction: column
     id: test
     width: 100%
     height: 100%
     description: "this is the index page"
+    children: 
+      - type: view
+        backgroundURL: http://docs.richardcliu.com/pic/banner.jpg
+        margin: [0, 0, -50, 0]
+      - type: text
+        backgroundURL: http://docs.richardcliu.com/pic/subtitle_pink.png
+        textSize: 30
+        textColor: 0xFFDE465D
+        value: 假期酷娱乐
+        text-align: center
+        margin: [0, 0, 0, 0]
+  
